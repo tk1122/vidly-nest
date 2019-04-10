@@ -5,6 +5,7 @@ import { Connection } from 'typeorm';
 import { MovieModule } from './movies/movie.module';
 import { CustomerModule } from './customers/customer.module';
 import { RentalModule } from './rentals/rental.module';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { RentalModule } from './rentals/rental.module';
     MovieModule,
     CustomerModule,
     RentalModule,
+    AuthModule,
   ],
 })
 export class AppModule {

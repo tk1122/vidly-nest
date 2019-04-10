@@ -3,7 +3,7 @@
   "host": "localhost",
   "port": 5432,
   "username": "postgres",
-  "password": "99883100aA",
+  "password": "test-only",
   "database": "vidly-nest",
   "synchronize": true,
   "entities": ["src/**/*.entity{.ts,.js}"]
